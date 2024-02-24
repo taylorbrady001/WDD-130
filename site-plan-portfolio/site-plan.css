@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #558C8C   ;
+  --secondary-color: #D8D4D5 ;
+  --accent1-color: #2F2963;
+  --accent2-color: #E2E2E2;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Playfair Display";
+  --paragraph-font: Open Sans, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #2F2963;  /* headlines on a white background */ 
+  --headline-color-on-color: #E2E2E2; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #2F2963; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E2E2E2; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #2F2963  ;
+  --nav-link-color: #2F2963;
+  --nav-background-color: #D8D4D5;
+  --nav-hover-link-color: #E2E2E2;
+  --nav-hover-background-color: #2F2963;
 }
 
 
@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
