@@ -239,6 +239,11 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -282,3 +287,24 @@ nav {
         margin-top: 25px;
     }
 }
+
+
+
+
+
+/* why us css*/
+
+.landscape {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+.msg2 {
+margin-top: 100px;
+text-align: center;
+
+}
+
+
+
