@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #D8D4D5;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    color: #558C8C;
+}
+
+h1{
+text-align: right;
+margin-top: 100px;
+float: right;
+padding-top: 200px;
+}
+
+#welcome{
+
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+}
+
+#hero{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#editing-img{
+    float: right;
+    padding-top: 30px;
+}
+
+.home-title{  
+    margin-top: 10px;
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+    font-size: 2em;
+}
+#logo_link{
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+h1, h2, h3, .home-title, .msg h2 {
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+}
+h2{
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+    font-size: 2em;
+    color: #558C8C;
+}
+.logo{
+    width: 56px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+
+nav {
+    
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+nav a {
+    float: right;
+    text-align: center;
+    color: #558C8C; 
+    text-decoration: none;
+    padding: 25px;
+}
+nav p {
+    text-align: center;
+    color: #558C8C; 
+    text-decoration: none;
+    margin-left: -1200px;
+    margin-top: px;
+    }
+nav a:hover {
+    background-color: #2F2963;
+}
+
+main section {
+    text-align: center;
+    color: #558C8C; 
+}
+
+#background {
+    height: 725px;
+    background-color: #D8D4D5;
+}
+
+header {
+    background-color: #D8D4D5;
+    color: #558C8C;
+    display: grid;
+    grid-template-columns: 150px auto;
+    border: 3px solid black;
+}
+
+.msg{
+background-color: #D8D4D5;
+line-height: 1.5em;
+padding: 35px;
+padding: 35px;
+grid-column: 6/10;
+grid-row: 6/7;
+box-shadow: 5px 5px 10px #D8D4D5;
+}
+
+
+footer {
+    background-color: #2F2963;
+    color: #558C8C; 
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #558C8C; 
+    text-decoration: none;
+    padding: 25px 50px;
+}
+
+footer a:hover {
+    color: #E2E2E2; 
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}   
+footer .social img{
+    padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+
