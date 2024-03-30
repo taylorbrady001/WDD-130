@@ -9,30 +9,44 @@ body {
     padding: 0;
     color: #558C8C;
 }
+.home-title{
 
-.parallax {
-    /* The image used */
-    background-image: url('images/background.jpg');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+float: left;
 
-
-
-h1{
-
+}
+p{
 text-align: center;
-
 
 }
 
+#welcome-img{
+    padding-top: 30px;
+    padding-left: 60px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+}
+
+h1{
+text-align: left;
+margin-top: 100px;
+font-size: 30px;
+padding-top: 200px;
+}
+header{
+
+    border-bottom: 3px solid black;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    padding-top: 200px;
+    }
+h3{
+text-align: center;
+padding: 25px;
+    }
 #welcome{
 
 border-top: 3px solid black;
@@ -45,15 +59,16 @@ border-bottom: 3px solid black;
 
 }
 
-#editing-img{
-    float: right;
-    padding-top: 30px;
-}
 
+.p-edit{
+text-align: right;
+
+
+}
 .home-title{  
     margin-top: 10px;
     font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
-    font-size: 2em;
+    
 }
 #logo_link{
     padding-top: 5px;
@@ -165,9 +180,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }   
-footer .social img{
-    padding-top: 15px;
-}
+
 
 main section img {
     box-sizing: border-box;
